@@ -1,0 +1,102 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+/*start of header*/
+#header {
+	background-image: url(./../images/header-pic.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 100vh;
+}
+
+#header h1 {
+	color: #fff;
+}
+
+#header .btn {
+	color: #fff;
+}
+/*end of header*/
+
+/*start of about*/
+#about {
+	height: 100vh;
+
+}
+
+#about img {
+	height: 10rem;
+	width: auto;
+}
+/*end of about*/
+
+/*start of project*/
+#project {
+	min-height: 100vh;
+}
+
+#project img {
+	height: 20rem;
+}
+/*end of project*/
+
+/*start of skills*/
+#skills {
+	height: 100vh; 
+}
+
+#skills img {
+	height: 6rem;
+	width: auto;
+}
+/*end of skills*/
+
+/*start of get in touch*/
+#get-in-touch {
+	min-height: 30vh;
+
+}
+
+#get-in-touch .fas {
+	font-size: 2rem;
+}
+/*end of get in touch*/
+
+/*start of footer*/
+#footer {
+	background-color: lightgray;
+	min-height: 50vh;
+}
+/*end of footer*/
+
+
+/*start of media query*/
+
+/* start of mobile size*/
+@media all and (max-width: 500px) {
+	#project img {
+		height: 8rem;
+		width: auto;
+	}
+
+	#skills img {
+		height: 5rem;
+		width: auto;
+	}
+}
+
+
+
+/* end of mobile size*/
+
+
+
+
+
+/*end of media query*/
